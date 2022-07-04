@@ -1,0 +1,37 @@
+we looked at installing atom browser
+running py files instead of using terminal
+
+tested import
+
+install pip using pthon get-pip which creates the Script folder in python
+pip used to install packages just like apt-get 
+
+then installed glob2 using pip install glob2
+
+in python import glob2
+glob2.glob("*") list everything in folder
+glob2.glob("*.py") list everything with .py extension
+
+also used import os which allows us to navigate folders just like bash
+
+os.listdir() ==== ls in bash
+os.__file__ ==== file path pwd in bash
+
+modules are python scripts
+libraries are collections of python scrips or modules
+packages are 3rd party libraries
+
+DATE TIME
+
+3 ways
+
+date = datetime.now()
+date = datetime(2018, 01, 33)
+date = datetime.strptime("2017:12:31:20:59", "%Y:%m%d:%H%M") - - too can be used
+
+datetime subtraction gives a datetime.deltatime obj
+
+you can format an existing time using strftime 
+date.strftime("%Y-%m-%d %H:%M")
+
+

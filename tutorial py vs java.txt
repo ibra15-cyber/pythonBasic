@@ -1,0 +1,53 @@
+python does not need type to be stated
+
+add = 10 instead of "int add = 10"
+
+string
+str(10) instead of 10.toString
+len("uuroiu") instead of "uurou".length
+
+converting
+str(10) 10
+str(10.0) 10.0
+int(10.2) 10
+float(10.2) 10.2
+
+list.append instead of list.add()
+
+dir(dict) list all methods that can be used
+
+help(dict) does something similar
+help(dict.copy) specific to copy
+
+dictionary pair or map
+mydic = {"mike":1234} instead of 
+Map<String, integer> mydic = new Map<>() 
+mydic.add("mike":1234)
+
+input vs scanner
+
+variable = int(input("enter a ")) //takes and stores int
+variable = input("enter a ") //strings
+
+instead of 
+Scanner scanner = new Scanner(System.in);
+int varible = scanner.readInt(); for int
+String variable = scanner.read(); for string
+
+file reading and opening
+
+file = open(link to file)
+file.read()
+file.close()
+
+File nametostorefile = new File("link to filename"); //prepare file link
+Scanner sc = new Scanner(nametostorefile);
+String reading = sc.nextLine();
+reading.close()
+
+FileInputStream file = new FileInputStream("C:/test.txt"); //prepare file link
+BufferedReader reader = new BufferedReader(new InputStreamReader(file));
+String reading = reader.readLine()
+reader.close()
+
+
